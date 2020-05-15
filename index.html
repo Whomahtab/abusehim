@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Abuse The World</title>
+	  <!-- Primary Meta -->
+	<meta charset="UTF-8">
+	<meta name="them-color" content="#333">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <!-- inc_Css --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/makeup.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center align-items-center mt-5">
+			<div class="col-md-6 jumbotron">
+				<h3 class="text-white text-light">Abuse The World</h3><hr>	
+				<form onsubmit="return false" method="Post" class="main-form">
+					<div class="form-group">
+						<select class="form-control" id="option-inpt" disabled="">
+							<option value="Hindi" >Hindi</option>
+							<option value="English" >English</option>
+						</select>
+					</div>
+					<div class="form-group">
+					<input type="number" class="form-control form-inpt"  id="input_num" placeholder="Type length 1-100" value="20" required minlength="20" maxlength="100" >
+					</div>
+					<input type="submit" value="genrate now" class="btn btn-block text-uppercase" id="btn_create">
+				</form>
+				<div id="output">
+				<!--Copy-to-clipboard-->
+					<!-- <button class="btn btn-sm btn-light float-right btn-copy">Copy</button> -->
+				<textarea  class="form-control-lg w-100 mt-2 godText" rows="5" readonly=""></textarea>
+			</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="jumbotron" id="code"></div> -->
+	<!-- Credit -->
+	<div class="footer-credit text-white text-center">
+		<p>Made with 💖 by <a href="">Mahtab</a></p>
+	</div>
+	<!-- script -->
+	<script src="./assets/anction.js"></script>
+</body>
+</html>
